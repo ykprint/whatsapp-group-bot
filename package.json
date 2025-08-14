@@ -4,7 +4,8 @@
   "description": "WhatsApp bot for group chats with media downloading capabilities",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot-stable.js",
+    "start": "node bot-minimal.js",
+    "minimal": "node bot-minimal.js",
     "stable": "node bot-stable.js",
     "full": "node start-cloud.js",
     "dev": "node bot.js",
